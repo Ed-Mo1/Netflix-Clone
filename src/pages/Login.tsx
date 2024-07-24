@@ -116,19 +116,10 @@ const Login = () => {
             >
               Sign in
             </button>
-            {/* <div className="flex flex-wrap justify-between items-center">
-              <div className="text-white space-x-2">
-                <input type="checkbox" name="remember" id="remember" />
-                <label htmlFor="remember" className="cursor-pointer">
-                  Remember me
-                </label>
-              </div>
-              <p className="text-white text-base">Need help?</p>
-            </div> */}
           </form>
           <p className="text-white mt-5">
             Don't have an account?{" "}
-            <Link to={"/register"} className="text-red cursor-pointer">
+            <Link to={"/Netflix-Clone/register"} className="text-red cursor-pointer">
               Sign up
             </Link>
           </p>
